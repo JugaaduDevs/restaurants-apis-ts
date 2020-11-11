@@ -1,0 +1,32 @@
+{
+  "name": "restaurants-apis-ts",
+  "version": "1.0.0",
+  "description": "Generic APIs for managing restaurants",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x ts-node src/server.ts"
+  },
+  "author": "Shrikant Chine",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/config": "0.0.36",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.6",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.0.0",
+    "typeorm": "^0.2.29",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
